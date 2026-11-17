@@ -43,3 +43,4 @@ class LeverCollector(BaseATSCollector):
             )
 
         return postings
+

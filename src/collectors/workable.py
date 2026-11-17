@@ -41,3 +41,4 @@ class WorkableCollector(BaseATSCollector):
             )
 
         return postings
+

@@ -16,3 +16,4 @@ def export_csv(leads: list[EnrichedLead], output_path: Path) -> Path:
         for lead in leads:
             writer.writerow(lead.to_sheet_row())
     return output_path
+

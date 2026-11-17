@@ -44,3 +44,4 @@ class SmartRecruitersCollector(BaseATSCollector):
             )
 
         return postings
+

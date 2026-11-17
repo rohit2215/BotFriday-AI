@@ -31,3 +31,4 @@ def export_markdown(leads: list[EnrichedLead], output_path: Path) -> Path:
 
     output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return output_path
+

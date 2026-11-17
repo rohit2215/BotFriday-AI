@@ -68,3 +68,4 @@ class EnrichedLead:
     def to_dict(self) -> dict[str, str]:
         """Return dictionary representation for CSV/JSON serialization."""
         return asdict(self)
+

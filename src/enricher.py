@@ -54,3 +54,4 @@ def build_enriched_lead(
         location=posting.location or company.hq_city,
         verified_http_status=verified_status,
     )
+

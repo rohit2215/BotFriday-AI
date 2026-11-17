@@ -20,3 +20,4 @@ python3 main.py --limit 10 --days 14
 ```
 
 See [IMPLEMENTATION_EXPLANATION.md](IMPLEMENTATION_EXPLANATION.md) for architecture details and the generated output.
+

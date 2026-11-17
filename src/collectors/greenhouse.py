@@ -41,3 +41,4 @@ class GreenhouseCollector(BaseATSCollector):
             )
 
         return postings
+

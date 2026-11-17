@@ -42,3 +42,4 @@ class AshbyCollector(BaseATSCollector):
             )
 
         return postings
+

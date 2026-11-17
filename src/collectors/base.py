@@ -59,3 +59,4 @@ class BaseATSCollector(ABC):
     @abstractmethod
     def fetch_jobs(self, board_token: str) -> list[JobPosting]:
         """Fetch all active software engineering jobs in India for a board."""
+
