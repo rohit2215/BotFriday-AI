@@ -19,25 +19,35 @@ def is_within_lookback(
     return cutoff <= posted_at <= now + timedelta(days=1)
 
 
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
+
+
 def verify_url_live(url: str, session: Optional[requests.Session] = None) -> Optional[int]:
     """Check whether a URL is live (HTTP < 400). Returns status code or None on error."""
     client = session or requests.Session()
-    headers = {"User-Agent": USER_AGENT}
-    try:
-        resp = client.head(
-            url,
-            headers=headers,
-            timeout=REQUEST_TIMEOUT_SECONDS,
-            allow_redirects=True,
-        )
-        if resp.status_code == 405 or resp.status_code >= 400:
-            resp = client.get(
+    for ua in (USER_AGENT, BROWSER_USER_AGENT):
+        headers = {"User-Agent": ua}
+        try:
+            resp = client.head(
                 url,
                 headers=headers,
                 timeout=REQUEST_TIMEOUT_SECONDS,
                 allow_redirects=True,
-                stream=True,
             )
-        return resp.status_code if resp.status_code < 400 else None
-    except requests.RequestException:
-        return None
+            if resp.status_code == 405 or resp.status_code >= 400:
+                resp = client.get(
+                    url,
+                    headers=headers,
+                    timeout=REQUEST_TIMEOUT_SECONDS,
+                    allow_redirects=True,
+                    stream=True,
+                )
+            if resp.status_code < 400:
+                return resp.status_code
+        except requests.RequestException:
+            continue
+    return None
+
