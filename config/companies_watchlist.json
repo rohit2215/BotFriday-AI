@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Sarvam AI",
+    "website": "https://www.sarvam.ai",
+    "ats_provider": "ashby",
+    "ats_board_token": "sarvam",
+    "employee_range": "100-400",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Dr. Pratyush Kumar",
+      "role": "Co-Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/company/sarvamai"
+    },
+    "hiring_signal": "Scaling sovereign Indian-language foundation models and Samvaad voice/agentic AI platform with 48 open roles on Ashby."
+  },
+  {
+    "name": "AiPrise",
+    "website": "https://www.aiprise.com",
+    "ats_provider": "ashby",
+    "ats_board_token": "aiprise",
+    "employee_range": "50-100",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Chaitanya Sarda",
+      "role": "Co-Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/in/chaitanyasarda/"
+    },
+    "hiring_signal": "YC-backed Series A compliance startup expanding its Bengaluru engineering hub across Frontend, Full-Stack, and HR roles."
+  },
+  {
+    "name": "Bureau",
+    "website": "https://www.bureau.id",
+    "ats_provider": "ashby",
+    "ats_board_token": "bureau",
+    "employee_range": "180-280",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Ranjan Reddy",
+      "role": "Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/in/ranjanready/"
+    },
+    "hiring_signal": "Post-Series B fraud-prevention platform scaling cloud infrastructure and identity decisioning engineering in Bengaluru."
+  },
+  {
+    "name": "CertifyOS",
+    "website": "https://www.certifyos.com",
+    "ats_provider": "ashby",
+    "ats_board_token": "certifyos",
+    "employee_range": "130-270",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Anshul Rathi",
+      "role": "Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/company/certifyos"
+    },
+    "hiring_signal": "Post-Series B healthcare credentialing platform hiring simultaneously for Staff Data Platform, SDET, and Data roles in Bengaluru."
+  },
+  {
+    "name": "Enterpret",
+    "website": "https://www.enterpret.com",
+    "ats_provider": "greenhouse",
+    "ats_board_token": "enterpret",
+    "employee_range": "80-120",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Varun Sharma",
+      "role": "Co-Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/company/enterpret"
+    },
+    "hiring_signal": "AI customer-intelligence platform scaling ClickHouse and high-throughput analytics infrastructure onsite in Bengaluru."
+  },
+  {
+    "name": "Fortanix",
+    "website": "https://www.fortanix.com",
+    "ats_provider": "workable",
+    "ats_board_token": "fortanix",
+    "employee_range": "200-250",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Anand Kashyap",
+      "role": "Co-Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/company/fortanix"
+    },
+    "hiring_signal": "Confidential computing & data-security firm actively recruiting Senior Backend engineers in Bengaluru."
+  },
+  {
+    "name": "AbhiBus",
+    "website": "https://www.abhibus.com",
+    "ats_provider": "smartrecruiters",
+    "ats_board_token": "abhibus",
+    "employee_range": "150-350",
+    "hq_city": "Hyderabad, India",
+    "decision_maker": {
+      "name": "Rohit Sharma",
+      "role": "COO",
+      "linkedin_url": "https://www.linkedin.com/company/abhibus"
+    },
+    "hiring_signal": "Expanding SRTC & private bus GDS integrations and AI-driven tracking out of its Hyderabad engineering center."
+  },
+  {
+    "name": "Certa",
+    "website": "https://www.certa.ai",
+    "ats_provider": "ashby",
+    "ats_board_token": "certa",
+    "employee_range": "50-200",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Jagmeet Lamba",
+      "role": "Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/in/jlamba/"
+    },
+    "hiring_signal": "AI-first third-party risk management platform hiring technical Solutions Engineers across India for enterprise rollouts."
+  },
+  {
+    "name": "SuperApp",
+    "website": "https://superapp.chat",
+    "ats_provider": "greenhouse",
+    "ats_board_token": "superapp",
+    "employee_range": "200-250",
+    "hq_city": "Bengaluru, India",
+    "decision_maker": {
+      "name": "Anant Bhardwaj",
+      "role": "Founder & CEO",
+      "linkedin_url": "https://www.linkedin.com/in/anant"
+    },
+    "hiring_signal": "Rebranded from Instabase in Aug 2026 to launch its multiplayer AI workspace, hiring technical engineers in Bengaluru."
+  },
+  {
+    "name": "Encord",
+    "website": "https://encord.com",
+    "ats_provider": "ashby",
+    "ats_board_token": "encord",
+    "employee_range": "150-220",
+    "hq_city": "India (Remote)",
+    "decision_maker": {
+      "name": "Eric Landau",
+      "role": "Co-Founder & Co-CEO",
+      "linkedin_url": "https://www.linkedin.com/in/eric-landau-40992ab0/"
+    },
+    "hiring_signal": "Physical-AI data infrastructure startup scaling distributed DevOps & cloud reliability engineering in India."
+  }
+]
