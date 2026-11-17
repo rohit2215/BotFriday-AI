@@ -4,11 +4,15 @@ from src.collectors.ashby import AshbyCollector
 from src.collectors.base import BaseATSCollector
 from src.collectors.greenhouse import GreenhouseCollector
 from src.collectors.lever import LeverCollector
+from src.collectors.smartrecruiters import SmartRecruitersCollector
+from src.collectors.workable import WorkableCollector
 
 COLLECTOR_REGISTRY: dict[str, type[BaseATSCollector]] = {
     "ashby": AshbyCollector,
     "greenhouse": GreenhouseCollector,
     "lever": LeverCollector,
+    "smartrecruiters": SmartRecruitersCollector,
+    "workable": WorkableCollector,
 }
 
 
@@ -27,3 +31,4 @@ __all__ = [
     "LeverCollector",
     "get_collector",
 ]
+

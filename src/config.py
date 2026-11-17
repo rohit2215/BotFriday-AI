@@ -34,6 +34,12 @@ SWE_TITLE_KEYWORDS = (
     "api platform",
     "founding engineer",
     "member of technical staff",
+    "sdet",
+    "devops engineer",
+    "data platform engineer",
+    "database engineer",
+    "solution engineer",
+    "solutions engineer",
 )
 
 SWE_EXCLUDE_KEYWORDS = (
@@ -67,3 +73,4 @@ INDIA_LOCATION_KEYWORDS = (
     "kolkata",
     "ahmedabad",
 )
+
